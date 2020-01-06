@@ -1,0 +1,29 @@
+{
+	"IMAP":{
+		"address":"imap.163.com",
+		"SSL_port":"993",
+		"non_SSL_port":"143"
+	},
+
+	"POP3":{
+		"address":"pop.163.com",
+		"SSL_port":"994",
+		"non_SSL_port":"25"
+	},
+
+	"SMTP":{
+		"address":"smtp.163.com",
+		"SSL_port":"995",
+		"non_SSL_port":"110"
+	},
+
+
+	// 邮箱地址/登陆密码/授权码
+
+	// 邮箱地址
+	"email":"address@163.com",
+	// 一些邮箱直接使用密码即可登陆，只需修改下面的密码就可以
+	"password":"password",
+	// 一些邮箱需要使用授权码登陆，需要生成授权码
+	"authority_code":"password"
+}
